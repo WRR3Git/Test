@@ -1,3 +1,4 @@
+```json
 €‹ < samlp: AuthnRequest xmlns = "urn:oasis:names:tc:SAML:2.0:metadata"
 xmlns: samlp = "urn:oasis:names:tc:SAML:2.0:protocol"
 ID = "F84D888AA3B44C1B844375A4E8210D9E"
@@ -248,3 +249,4 @@ SessionIndex = "_82b2d5ea-a38b-4f23-af11-2730378e5201" >
     /AuthnStatement> <
     /Assertion> <
     /samlp:Response>
+```json
