@@ -1,252 +1,151 @@
-```json
-€‹ < samlp: AuthnRequest xmlns = "urn:oasis:names:tc:SAML:2.0:metadata"
-xmlns: samlp = "urn:oasis:names:tc:SAML:2.0:protocol"
-ID = "F84D888AA3B44C1B844375A4E8210D9E"
-Version = "2.0"
-IssueInstant = "2023-01-20T13:01:18.342Z"
-IsPassive = "false"
-AssertionConsumerServiceURL = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc"
-ForceAuthn = "false" >
-    <
-    Issuer xmlns = "urn:oasis:names:tc:SAML:2.0:assertion" > https: //r3inc.sso.meraki.com</Issuer>
-    <
-    /samlp:AuthnRequest>
+€‹<samlp:AuthnRequest xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="F84D888AA3B44C1B844375A4E8210D9E" Version="2.0" IssueInstant="2023-01-20T13:01:18.342Z" IsPassive="false" AssertionConsumerServiceURL="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" ForceAuthn="false">
+ <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://r3inc.sso.meraki.com</Issuer>
+</samlp:AuthnRequest>
 
-    €‹ < samlp: AuthnRequest xmlns = "urn:oasis:names:tc:SAML:2.0:metadata"
-xmlns: samlp = "urn:oasis:names:tc:SAML:2.0:protocol"
-ID = "F84D888AA3B44C1B844375A4E8210D9E"
-Version = "2.0"
-IssueInstant = "2023-01-20T13:01:18.342Z"
-IsPassive = "false"
-AssertionConsumerServiceURL = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc"
-ForceAuthn = "false" >
-    <
-    Issuer xmlns = "urn:oasis:names:tc:SAML:2.0:assertion" > https: //r3inc.sso.meraki.com</Issuer>
-    <
-    /samlp:AuthnRequest>
+€‹<samlp:AuthnRequest xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="F84D888AA3B44C1B844375A4E8210D9E" Version="2.0" IssueInstant="2023-01-20T13:01:18.342Z" IsPassive="false" AssertionConsumerServiceURL="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" ForceAuthn="false">
+ <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://r3inc.sso.meraki.com</Issuer>
+</samlp:AuthnRequest>
 
-    <
-    samlp: Response xmlns: samlp = "urn:oasis:names:tc:SAML:2.0:protocol"
-ID = "_29a673f0-3f52-4c2e-bf86-09a472d6dfd4"
-Version = "2.0"
-IssueInstant = "2023-01-20T13:00:20.762Z"
-Destination = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" >
-    <
-    Issuer xmlns = "urn:oasis:names:tc:SAML:2.0:assertion" > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
-    <
-    samlp: Status >
-    <
-    samlp: StatusCode Value = "urn:oasis:names:tc:SAML:2.0:status:Success" > < /samlp:StatusCode> <
-    /samlp:Status> <
-    Assertion xmlns = "urn:oasis:names:tc:SAML:2.0:assertion"
-ID = "_82b2d5ea-a38b-4f23-af11-2730378e5201"
-IssueInstant = "2023-01-20T13:00:20.746Z"
-Version = "2.0" >
-    <
-    Issuer > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
-    <
-    Signature xmlns = "http://www.w3.org/2000/09/xmldsig#" >
-    <
-    SignedInfo >
-    <
-    CanonicalizationMethod Algorithm = "http://www.w3.org/2001/10/xml-exc-c14n#" > < /CanonicalizationMethod> <
-    SignatureMethod Algorithm = "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" > < /SignatureMethod> <
-    Reference URI = "#_82b2d5ea-a38b-4f23-af11-2730378e5201" >
-    <
-    Transforms >
-    <
-    Transform Algorithm = "http://www.w3.org/2000/09/xmldsig#enveloped-signature" > < /Transform> <
-    Transform Algorithm = "http://www.w3.org/2001/10/xml-exc-c14n#" > < /Transform> <
-    /Transforms> <
-    DigestMethod Algorithm = "http://www.w3.org/2001/04/xmlenc#sha256" > < /DigestMethod> <
-    DigestValue > aODknUGd + GAOksmKUsCEBZHueW0zHyR1mAYqea7yTbE = < /DigestValue> <
-    /Reference> <
-    /SignedInfo> <
-    SignatureValue > UcwPNvnQR5SvgpADIGnniY6VH1ELOfFHVhDnnbDHd5ZwZdivJZwM / vmsauueuoy6eyH6uoOfGCH8MmU3fT3NmW3ZNz0jDq2VzdT8e5Nv9vA0VgDaYLUslIUdW5kJ8x6QMdFEfgQqCFOBABPvR + 6 / 2 ZlIhzk1yAwplnsqToIPuFW + 1 TGHoGuPf7rOKnEa9XFPaItQbTwSDSdsqppRT7zC / o8kLzLxkqG5m5xk2O4OGTzOaYyIcDKFxonXBV + y / Jf6XUaff0IUEHO0iEctd7DumrByOr + TSPTahAgG1ugM4rwoauEzIqMS5K + CCpsqdqAXqpFfthdZ6 / h89PjIfwXL + Q == < /SignatureValue> <
-    KeyInfo >
-    <
-    X509Data >
-    <
-    X509Certificate > MIIC8DCCAdigAwIBAgIQYEy6kPbikrBFoUy4Zio1azANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjEwMjkyMTIxNTNaFw0yNTEwMjkyMTIxNTNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hmi2D2yepoqo6sMjNU7uW1IQ28PQPdK / RRlh3QFpapwDJ4NyEKB7wlTJbkhxwBAZmsPf6 + ewZkmjBuxpplFl8G1vGepIBca6B / Q / R5vEiRcpB14yssZIwENJF4tt9xqMxLytVmUle2LGswdRnOuAwFdc9OAlAC4C1D9XYNjCtcK5D8CiRscDJoMwJOZRgA / HlE0WNkWMUuyn + 2 TZDWQCUaFgrPHS8t0QmUO / fd1mt5AxAYbd6N1xw3 / yrN + LdAn6AH6I / c907jetodXHzOUEmYNbUT43zKwrfMaChhHS3QIFVAgqdnLTDmqhjJ02rRJ + 8 apXC6X40zRMfyDhO5ZwQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAd1HroMvrSAhRqKv0hlXsGYNQgNnXuBp6Ax9CBZEXpnNyEfw3e7 / JNLOMSQdavF0dSrO06iEViMvp9BbR9 / yC1do78fm9kRo080 + 8 D1REwlAaY5HTgvAtK3xuXmaMjzgfBTA9bUavP5OHTa7dTEsITKUuWFVNazzApqT3t4GLZYaWjsZEkCaEzZeoYurTn0BYWEkN6Pmilul075zDQyEUaCOZJrAmZtG3U + AfwG9k3Kar4sRL0MA / gdCR / t1I1zD6BOUNhdbUdldEwjs + rC8s + Hcs8uqCQhM9DNjap4Ws0CUAowCh0iwB4V9yu8SDmauPa0J5Gbir8e3RfaeDGVwpY < /X509Certificate> <
-    /X509Data> <
-    /KeyInfo> <
-    /Signature> <
-    Subject >
-    <
-    NameID Format = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress" > wreid @r3inc.com < /NameID> <
-    SubjectConfirmation Method = "urn:oasis:names:tc:SAML:2.0:cm:bearer" >
-    <
-    SubjectConfirmationData NotOnOrAfter = "2023-01-20T14:00:20.621Z"
-Recipient = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" > < /SubjectConfirmationData> <
-    /SubjectConfirmation> <
-    /Subject> <
-    Conditions NotBefore = "2023-01-20T12:55:20.621Z"
-NotOnOrAfter = "2023-01-20T14:00:20.621Z" >
-    <
-    AudienceRestriction >
-    <
-    Audience > https: //r3inc.sso.meraki.com</Audience>
-    <
-    /AudienceRestriction> <
-    /Conditions> <
-    AttributeStatement >
-    <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/tenantid" >
-    <
-    AttributeValue > 67 a3b227 - 796 b - 4 a03 - 977 c - 1231 de3240ba < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/objectidentifier" >
-    <
-    AttributeValue > e999f578 - 93 da - 4242 - a03a - 61e7 c3a7bb18 < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/identityprovider" >
-    <
-    AttributeValue > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</AttributeValue>
-    <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/claims/authnmethodsreferences" >
-    <
-    AttributeValue > http: //schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
-    <
-    AttributeValue > http: //schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/x509</AttributeValue>
-    <
-    AttributeValue > http: //schemas.microsoft.com/claims/multipleauthn</AttributeValue>
-    <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" >
-    <
-    AttributeValue > meraki_write < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "https://dashboard.meraki.com/saml/attributes/username" >
-    <
-    AttributeValue > wreid @r3inc.com < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "https://dashboard.meraki.com/saml/attributes/role" >
-    <
-    AttributeValue > meraki_write < /AttributeValue> <
-    /Attribute> <
-    /AttributeStatement> <
-    AuthnStatement AuthnInstant = "2023-01-20T12:10:53.647Z"
-SessionIndex = "_82b2d5ea-a38b-4f23-af11-2730378e5201" >
-    <
-    AuthnContext >
-    <
-    AuthnContextClassRef > urn: oasis: names: tc: SAML: 2.0: ac: classes: Password < /AuthnContextClassRef> <
-    /AuthnContext> <
-    /AuthnStatement> <
-    /Assertion> <
-    /samlp:Response>
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="_29a673f0-3f52-4c2e-bf86-09a472d6dfd4" Version="2.0" IssueInstant="2023-01-20T13:00:20.762Z" Destination="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc">
+ <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
+ <samlp:Status>
+  <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"></samlp:StatusCode>
+ </samlp:Status>
+ <Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion" ID="_82b2d5ea-a38b-4f23-af11-2730378e5201" IssueInstant="2023-01-20T13:00:20.746Z" Version="2.0">
+  <Issuer>https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+   <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+    <Reference URI="#_82b2d5ea-a38b-4f23-af11-2730378e5201">
+     <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+      <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+     </Transforms>
+     <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+     <DigestValue>aODknUGd+GAOksmKUsCEBZHueW0zHyR1mAYqea7yTbE=</DigestValue>
+    </Reference>
+   </SignedInfo>
+   <SignatureValue>UcwPNvnQR5SvgpADIGnniY6VH1ELOfFHVhDnnbDHd5ZwZdivJZwM/vmsauueuoy6eyH6uoOfGCH8MmU3fT3NmW3ZNz0jDq2VzdT8e5Nv9vA0VgDaYLUslIUdW5kJ8x6QMdFEfgQqCFOBABPvR+6/2ZlIhzk1yAwplnsqToIPuFW+1TGHoGuPf7rOKnEa9XFPaItQbTwSDSdsqppRT7zC/o8kLzLxkqG5m5xk2O4OGTzOaYyIcDKFxonXBV+y/Jf6XUaff0IUEHO0iEctd7DumrByOr+TSPTahAgG1ugM4rwoauEzIqMS5K+CCpsqdqAXqpFfthdZ6/h89PjIfwXL+Q==</SignatureValue>
+   <KeyInfo>
+    <X509Data>
+     <X509Certificate>MIIC8DCCAdigAwIBAgIQYEy6kPbikrBFoUy4Zio1azANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjEwMjkyMTIxNTNaFw0yNTEwMjkyMTIxNTNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hmi2D2yepoqo6sMjNU7uW1IQ28PQPdK/RRlh3QFpapwDJ4NyEKB7wlTJbkhxwBAZmsPf6+ewZkmjBuxpplFl8G1vGepIBca6B/Q/R5vEiRcpB14yssZIwENJF4tt9xqMxLytVmUle2LGswdRnOuAwFdc9OAlAC4C1D9XYNjCtcK5D8CiRscDJoMwJOZRgA/HlE0WNkWMUuyn+2TZDWQCUaFgrPHS8t0QmUO/fd1mt5AxAYbd6N1xw3/yrN+LdAn6AH6I/c907jetodXHzOUEmYNbUT43zKwrfMaChhHS3QIFVAgqdnLTDmqhjJ02rRJ+8apXC6X40zRMfyDhO5ZwQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAd1HroMvrSAhRqKv0hlXsGYNQgNnXuBp6Ax9CBZEXpnNyEfw3e7/JNLOMSQdavF0dSrO06iEViMvp9BbR9/yC1do78fm9kRo080+8D1REwlAaY5HTgvAtK3xuXmaMjzgfBTA9bUavP5OHTa7dTEsITKUuWFVNazzApqT3t4GLZYaWjsZEkCaEzZeoYurTn0BYWEkN6Pmilul075zDQyEUaCOZJrAmZtG3U+AfwG9k3Kar4sRL0MA/gdCR/t1I1zD6BOUNhdbUdldEwjs+rC8s+Hcs8uqCQhM9DNjap4Ws0CUAowCh0iwB4V9yu8SDmauPa0J5Gbir8e3RfaeDGVwpY</X509Certificate>
+    </X509Data>
+   </KeyInfo>
+  </Signature>
+  <Subject>
+   <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">wreid@r3inc.com</NameID>
+   <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+    <SubjectConfirmationData NotOnOrAfter="2023-01-20T14:00:20.621Z" Recipient="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc"></SubjectConfirmationData>
+   </SubjectConfirmation>
+  </Subject>
+  <Conditions NotBefore="2023-01-20T12:55:20.621Z" NotOnOrAfter="2023-01-20T14:00:20.621Z">
+   <AudienceRestriction>
+    <Audience>https://r3inc.sso.meraki.com</Audience>
+   </AudienceRestriction>
+  </Conditions>
+  <AttributeStatement>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/tenantid">
+    <AttributeValue>67a3b227-796b-4a03-977c-1231de3240ba</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/objectidentifier">
+    <AttributeValue>e999f578-93da-4242-a03a-61e7c3a7bb18</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/identityprovider">
+    <AttributeValue>https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/claims/authnmethodsreferences">
+    <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
+    <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/x509</AttributeValue>
+    <AttributeValue>http://schemas.microsoft.com/claims/multipleauthn</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/role">
+    <AttributeValue>meraki_write</AttributeValue>
+   </Attribute>
+   <Attribute Name="https://dashboard.meraki.com/saml/attributes/username">
+    <AttributeValue>wreid@r3inc.com</AttributeValue>
+   </Attribute>
+   <Attribute Name="https://dashboard.meraki.com/saml/attributes/role">
+    <AttributeValue>meraki_write</AttributeValue>
+   </Attribute>
+  </AttributeStatement>
+  <AuthnStatement AuthnInstant="2023-01-20T12:10:53.647Z" SessionIndex="_82b2d5ea-a38b-4f23-af11-2730378e5201">
+   <AuthnContext>
+    <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+   </AuthnContext>
+  </AuthnStatement>
+ </Assertion>
+</samlp:Response>
 
 
-    <
-    samlp: Response xmlns: samlp = "urn:oasis:names:tc:SAML:2.0:protocol"
-ID = "_29a673f0-3f52-4c2e-bf86-09a472d6dfd4"
-Version = "2.0"
-IssueInstant = "2023-01-20T13:00:20.762Z"
-Destination = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" >
-    <
-    Issuer xmlns = "urn:oasis:names:tc:SAML:2.0:assertion" > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
-    <
-    samlp: Status >
-    <
-    samlp: StatusCode Value = "urn:oasis:names:tc:SAML:2.0:status:Success" > < /samlp:StatusCode> <
-    /samlp:Status> <
-    Assertion xmlns = "urn:oasis:names:tc:SAML:2.0:assertion"
-ID = "_82b2d5ea-a38b-4f23-af11-2730378e5201"
-IssueInstant = "2023-01-20T13:00:20.746Z"
-Version = "2.0" >
-    <
-    Issuer > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
-    <
-    Signature xmlns = "http://www.w3.org/2000/09/xmldsig#" >
-    <
-    SignedInfo >
-    <
-    CanonicalizationMethod Algorithm = "http://www.w3.org/2001/10/xml-exc-c14n#" > < /CanonicalizationMethod> <
-    SignatureMethod Algorithm = "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" > < /SignatureMethod> <
-    Reference URI = "#_82b2d5ea-a38b-4f23-af11-2730378e5201" >
-    <
-    Transforms >
-    <
-    Transform Algorithm = "http://www.w3.org/2000/09/xmldsig#enveloped-signature" > < /Transform> <
-    Transform Algorithm = "http://www.w3.org/2001/10/xml-exc-c14n#" > < /Transform> <
-    /Transforms> <
-    DigestMethod Algorithm = "http://www.w3.org/2001/04/xmlenc#sha256" > < /DigestMethod> <
-    DigestValue > aODknUGd + GAOksmKUsCEBZHueW0zHyR1mAYqea7yTbE = < /DigestValue> <
-    /Reference> <
-    /SignedInfo> <
-    SignatureValue > UcwPNvnQR5SvgpADIGnniY6VH1ELOfFHVhDnnbDHd5ZwZdivJZwM / vmsauueuoy6eyH6uoOfGCH8MmU3fT3NmW3ZNz0jDq2VzdT8e5Nv9vA0VgDaYLUslIUdW5kJ8x6QMdFEfgQqCFOBABPvR + 6 / 2 ZlIhzk1yAwplnsqToIPuFW + 1 TGHoGuPf7rOKnEa9XFPaItQbTwSDSdsqppRT7zC / o8kLzLxkqG5m5xk2O4OGTzOaYyIcDKFxonXBV + y / Jf6XUaff0IUEHO0iEctd7DumrByOr + TSPTahAgG1ugM4rwoauEzIqMS5K + CCpsqdqAXqpFfthdZ6 / h89PjIfwXL + Q == < /SignatureValue> <
-    KeyInfo >
-    <
-    X509Data >
-    <
-    X509Certificate > MIIC8DCCAdigAwIBAgIQYEy6kPbikrBFoUy4Zio1azANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjEwMjkyMTIxNTNaFw0yNTEwMjkyMTIxNTNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hmi2D2yepoqo6sMjNU7uW1IQ28PQPdK / RRlh3QFpapwDJ4NyEKB7wlTJbkhxwBAZmsPf6 + ewZkmjBuxpplFl8G1vGepIBca6B / Q / R5vEiRcpB14yssZIwENJF4tt9xqMxLytVmUle2LGswdRnOuAwFdc9OAlAC4C1D9XYNjCtcK5D8CiRscDJoMwJOZRgA / HlE0WNkWMUuyn + 2 TZDWQCUaFgrPHS8t0QmUO / fd1mt5AxAYbd6N1xw3 / yrN + LdAn6AH6I / c907jetodXHzOUEmYNbUT43zKwrfMaChhHS3QIFVAgqdnLTDmqhjJ02rRJ + 8 apXC6X40zRMfyDhO5ZwQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAd1HroMvrSAhRqKv0hlXsGYNQgNnXuBp6Ax9CBZEXpnNyEfw3e7 / JNLOMSQdavF0dSrO06iEViMvp9BbR9 / yC1do78fm9kRo080 + 8 D1REwlAaY5HTgvAtK3xuXmaMjzgfBTA9bUavP5OHTa7dTEsITKUuWFVNazzApqT3t4GLZYaWjsZEkCaEzZeoYurTn0BYWEkN6Pmilul075zDQyEUaCOZJrAmZtG3U + AfwG9k3Kar4sRL0MA / gdCR / t1I1zD6BOUNhdbUdldEwjs + rC8s + Hcs8uqCQhM9DNjap4Ws0CUAowCh0iwB4V9yu8SDmauPa0J5Gbir8e3RfaeDGVwpY < /X509Certificate> <
-    /X509Data> <
-    /KeyInfo> <
-    /Signature> <
-    Subject >
-    <
-    NameID Format = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress" > wreid @r3inc.com < /NameID> <
-    SubjectConfirmation Method = "urn:oasis:names:tc:SAML:2.0:cm:bearer" >
-    <
-    SubjectConfirmationData NotOnOrAfter = "2023-01-20T14:00:20.621Z"
-Recipient = "https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc" > < /SubjectConfirmationData> <
-    /SubjectConfirmation> <
-    /Subject> <
-    Conditions NotBefore = "2023-01-20T12:55:20.621Z"
-NotOnOrAfter = "2023-01-20T14:00:20.621Z" >
-    <
-    AudienceRestriction >
-    <
-    Audience > https: //r3inc.sso.meraki.com</Audience>
-    <
-    /AudienceRestriction> <
-    /Conditions> <
-    AttributeStatement >
-    <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/tenantid" >
-    <
-    AttributeValue > 67 a3b227 - 796 b - 4 a03 - 977 c - 1231 de3240ba < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/objectidentifier" >
-    <
-    AttributeValue > e999f578 - 93 da - 4242 - a03a - 61e7 c3a7bb18 < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/identity/claims/identityprovider" >
-    <
-    AttributeValue > https: //sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</AttributeValue>
-    <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/claims/authnmethodsreferences" >
-    <
-    AttributeValue > http: //schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
-    <
-    AttributeValue > http: //schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/x509</AttributeValue>
-    <
-    AttributeValue > http: //schemas.microsoft.com/claims/multipleauthn</AttributeValue>
-    <
-    /Attribute> <
-    Attribute Name = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" >
-    <
-    AttributeValue > meraki_write < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "https://dashboard.meraki.com/saml/attributes/username" >
-    <
-    AttributeValue > wreid @r3inc.com < /AttributeValue> <
-    /Attribute> <
-    Attribute Name = "https://dashboard.meraki.com/saml/attributes/role" >
-    <
-    AttributeValue > meraki_write < /AttributeValue> <
-    /Attribute> <
-    /AttributeStatement> <
-    AuthnStatement AuthnInstant = "2023-01-20T12:10:53.647Z"
-SessionIndex = "_82b2d5ea-a38b-4f23-af11-2730378e5201" >
-    <
-    AuthnContext >
-    <
-    AuthnContextClassRef > urn: oasis: names: tc: SAML: 2.0: ac: classes: Password < /AuthnContextClassRef> <
-    /AuthnContext> <
-    /AuthnStatement> <
-    /Assertion> <
-    /samlp:Response>
-```json
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="_29a673f0-3f52-4c2e-bf86-09a472d6dfd4" Version="2.0" IssueInstant="2023-01-20T13:00:20.762Z" Destination="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc">
+ <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
+ <samlp:Status>
+  <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"></samlp:StatusCode>
+ </samlp:Status>
+ <Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion" ID="_82b2d5ea-a38b-4f23-af11-2730378e5201" IssueInstant="2023-01-20T13:00:20.746Z" Version="2.0">
+  <Issuer>https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</Issuer>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+   <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+    <Reference URI="#_82b2d5ea-a38b-4f23-af11-2730378e5201">
+     <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+      <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+     </Transforms>
+     <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+     <DigestValue>aODknUGd+GAOksmKUsCEBZHueW0zHyR1mAYqea7yTbE=</DigestValue>
+    </Reference>
+   </SignedInfo>
+   <SignatureValue>UcwPNvnQR5SvgpADIGnniY6VH1ELOfFHVhDnnbDHd5ZwZdivJZwM/vmsauueuoy6eyH6uoOfGCH8MmU3fT3NmW3ZNz0jDq2VzdT8e5Nv9vA0VgDaYLUslIUdW5kJ8x6QMdFEfgQqCFOBABPvR+6/2ZlIhzk1yAwplnsqToIPuFW+1TGHoGuPf7rOKnEa9XFPaItQbTwSDSdsqppRT7zC/o8kLzLxkqG5m5xk2O4OGTzOaYyIcDKFxonXBV+y/Jf6XUaff0IUEHO0iEctd7DumrByOr+TSPTahAgG1ugM4rwoauEzIqMS5K+CCpsqdqAXqpFfthdZ6/h89PjIfwXL+Q==</SignatureValue>
+   <KeyInfo>
+    <X509Data>
+     <X509Certificate>MIIC8DCCAdigAwIBAgIQYEy6kPbikrBFoUy4Zio1azANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjEwMjkyMTIxNTNaFw0yNTEwMjkyMTIxNTNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hmi2D2yepoqo6sMjNU7uW1IQ28PQPdK/RRlh3QFpapwDJ4NyEKB7wlTJbkhxwBAZmsPf6+ewZkmjBuxpplFl8G1vGepIBca6B/Q/R5vEiRcpB14yssZIwENJF4tt9xqMxLytVmUle2LGswdRnOuAwFdc9OAlAC4C1D9XYNjCtcK5D8CiRscDJoMwJOZRgA/HlE0WNkWMUuyn+2TZDWQCUaFgrPHS8t0QmUO/fd1mt5AxAYbd6N1xw3/yrN+LdAn6AH6I/c907jetodXHzOUEmYNbUT43zKwrfMaChhHS3QIFVAgqdnLTDmqhjJ02rRJ+8apXC6X40zRMfyDhO5ZwQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAd1HroMvrSAhRqKv0hlXsGYNQgNnXuBp6Ax9CBZEXpnNyEfw3e7/JNLOMSQdavF0dSrO06iEViMvp9BbR9/yC1do78fm9kRo080+8D1REwlAaY5HTgvAtK3xuXmaMjzgfBTA9bUavP5OHTa7dTEsITKUuWFVNazzApqT3t4GLZYaWjsZEkCaEzZeoYurTn0BYWEkN6Pmilul075zDQyEUaCOZJrAmZtG3U+AfwG9k3Kar4sRL0MA/gdCR/t1I1zD6BOUNhdbUdldEwjs+rC8s+Hcs8uqCQhM9DNjap4Ws0CUAowCh0iwB4V9yu8SDmauPa0J5Gbir8e3RfaeDGVwpY</X509Certificate>
+    </X509Data>
+   </KeyInfo>
+  </Signature>
+  <Subject>
+   <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">wreid@r3inc.com</NameID>
+   <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+    <SubjectConfirmationData NotOnOrAfter="2023-01-20T14:00:20.621Z" Recipient="https://n84.meraki.com/saml/login/hisESaub/ocz5VcXWYRHc"></SubjectConfirmationData>
+   </SubjectConfirmation>
+  </Subject>
+  <Conditions NotBefore="2023-01-20T12:55:20.621Z" NotOnOrAfter="2023-01-20T14:00:20.621Z">
+   <AudienceRestriction>
+    <Audience>https://r3inc.sso.meraki.com</Audience>
+   </AudienceRestriction>
+  </Conditions>
+  <AttributeStatement>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/tenantid">
+    <AttributeValue>67a3b227-796b-4a03-977c-1231de3240ba</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/objectidentifier">
+    <AttributeValue>e999f578-93da-4242-a03a-61e7c3a7bb18</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/identity/claims/identityprovider">
+    <AttributeValue>https://sts.windows.net/67a3b227-796b-4a03-977c-1231de3240ba/</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/claims/authnmethodsreferences">
+    <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
+    <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/x509</AttributeValue>
+    <AttributeValue>http://schemas.microsoft.com/claims/multipleauthn</AttributeValue>
+   </Attribute>
+   <Attribute Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/role">
+    <AttributeValue>meraki_write</AttributeValue>
+   </Attribute>
+   <Attribute Name="https://dashboard.meraki.com/saml/attributes/username">
+    <AttributeValue>wreid@r3inc.com</AttributeValue>
+   </Attribute>
+   <Attribute Name="https://dashboard.meraki.com/saml/attributes/role">
+    <AttributeValue>meraki_write</AttributeValue>
+   </Attribute>
+  </AttributeStatement>
+  <AuthnStatement AuthnInstant="2023-01-20T12:10:53.647Z" SessionIndex="_82b2d5ea-a38b-4f23-af11-2730378e5201">
+   <AuthnContext>
+    <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+   </AuthnContext>
+  </AuthnStatement>
+ </Assertion>
+</samlp:Response>
+
